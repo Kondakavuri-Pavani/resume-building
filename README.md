@@ -10,3 +10,6 @@ live-server --no-browser
 ```
 
 2. Refresh the URL in simple browser to see the output
+
+
+live server Link- https://resume-building.bytexl.live/
