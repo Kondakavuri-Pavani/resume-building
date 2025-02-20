@@ -1,19 +1,50 @@
 body {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Arial', sans-serif;
   margin: 20px;
   padding: 20px;
-  background-color: white;
+  background-color: #f4f4f4;
+  font-size: 18px; /* Increased font size */
 }
+
 header {
   text-align: center;
   background-color: #333;
   color: white;
   padding: 20px;
 }
+
+h1 {
+  font-size: 2.5em; /* Header font size */
+}
+
+h2 {
+  font-size: 2em; /* Section header font size */
+  margin-top: 20px;
+}
+
 section {
   background-color: white;
   padding: 15px;
   margin: 10px;
   border-radius: 8px;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
 }
